@@ -143,7 +143,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({
             
 
             {/* HandlecLanguage Change   */}
-             <div className="sm:w-[90px]">
+             {/* <div className="sm:w-[90px]">
               <Select value={currentLanguage.code} onValueChange={handleLanguageChange} >
                 <SelectTrigger>
                   <SelectValue />
@@ -158,7 +158,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({
                   ))}
                 </SelectContent>
               </Select>
-            </div>
+            </div> */}
 
             {/* Add Residence Button */}
             <Button 
