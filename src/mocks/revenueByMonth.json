@@ -1,0 +1,14 @@
+[
+  { "month": "يناير", "value": 45000, "monthCode": "01" },
+  { "month": "فبراير", "value": 52000, "monthCode": "02" },
+  { "month": "مارس", "value": 48000, "monthCode": "03" },
+  { "month": "أبريل", "value": 61000, "monthCode": "04" },
+  { "month": "مايو", "value": 55000, "monthCode": "05" },
+  { "month": "يونيو", "value": 67000, "monthCode": "06" },
+  { "month": "يوليو", "value": 72000, "monthCode": "07" },
+  { "month": "أغسطس", "value": 68000, "monthCode": "08" },
+  { "month": "سبتمبر", "value": 75000, "monthCode": "09" },
+  { "month": "أكتوبر", "value": 82000, "monthCode": "10" },
+  { "month": "نوفمبر", "value": 78000, "monthCode": "11" },
+  { "month": "ديسمبر", "value": 85000, "monthCode": "12" }
+]

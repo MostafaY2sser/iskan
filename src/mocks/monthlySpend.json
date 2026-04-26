@@ -1,0 +1,8 @@
+[
+  { "month": "يناير", "amount": 26714, "monthCode": "01" },
+  { "month": "فبراير", "amount": 31250, "monthCode": "02" },
+  { "month": "مارس", "amount": 28900, "monthCode": "03" },
+  { "month": "أبريل", "amount": 35420, "monthCode": "04" },
+  { "month": "مايو", "amount": 42180, "monthCode": "05" },
+  { "month": "يونيو", "amount": 45469, "monthCode": "06" }
+]

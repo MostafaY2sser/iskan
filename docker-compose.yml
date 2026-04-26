@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  vite-react:
+    image: abdelrahmanasser/grh-frontend:latest
+    container_name: grh-frontend
+    ports:
+      - "8001:8001"
+    restart: always

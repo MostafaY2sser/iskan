@@ -1,0 +1,437 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Institutional Housing Platform Design System */
+@layer base {
+  :root {
+    /* GRH Color Palette */
+    --buccaneer: 222 38% 29%;          /* #2E4166 - Primary Buccaneer */
+    --mongoose: 48 26% 79%;            /* #DDD4BA - Secondary Mongoose */
+    --white: 0 0% 100%;                /* #FFFFFF - Pure White */
+    --neutral-light: 0 0% 96%;         /* #F5F5F5 - Light Neutral */
+    --neutral-medium: 0 0% 80%;        /* #CCCCCC - Medium Neutral */
+    --neutral-dark: 0 0% 53%;          /* #888888 - Dark Neutral */
+    --success-green: 142 76% 36%;      /* #27AE60 - Active Status */
+    --warning-orange: 43 95% 56%;      /* #F5A623 - Pending Status */
+    --section-subtitle: 220 19% 38%;   /* #516180 - Section Subtitle */
+    
+    /* Dashboard Brand Colors */
+    --brand: 222 38% 29%;              /* #253559 - Navy for headers/cards/primary buttons */
+    --brand-contrast: 0 0% 100%;       /* #ffffff - White */
+    --muted: 240 5% 96%;               /* #f6f7fb - Light gray background */
+    --text: 222 84% 5%;                /* #0f172a - Dark text */
+    --success: 142 76% 36%;            /* #16a34a - Success green */
+    --warning: 43 96% 56%;             /* #f59e0b - Warning orange */
+    --danger: 0 84% 60%;               /* #ef4444 - Danger red */
+    
+    /* Primary Brand Colors */
+    --primary: var(--buccaneer);
+    --primary-foreground: var(--white);
+    --primary-hover: 222 38% 25%;
+    
+    /* Secondary Colors */
+    --secondary: var(--mongoose);
+    --secondary-foreground: var(--buccaneer);
+    --secondary-hover: 48 26% 75%;
+    
+    /* Neutral Palette */
+    --background: var(--white);
+    --foreground: var(--buccaneer);
+    --muted: var(--neutral-light);
+    --muted-foreground: var(--neutral-dark);
+    
+    /* Status Colors */
+    --success: var(--success-green);
+    --success-foreground: var(--white);
+    --warning: var(--warning-orange);
+    --warning-foreground: var(--white);
+    --destructive: 0 84% 60%;
+    --destructive-foreground: var(--white);
+    
+    /* UI Elements */
+    --card: var(--white);
+    --card-foreground: var(--buccaneer);
+    --popover: var(--white);
+    --popover-foreground: var(--buccaneer);
+    --border: var(--neutral-medium);
+    --input: var(--neutral-medium);
+    --ring: var(--buccaneer);
+    --radius: 0.75rem;
+    
+    /* Accent Colors */
+    --accent: var(--mongoose);
+    --accent-foreground: var(--buccaneer);
+    
+    /* Dashboard Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--buccaneer)) 0%, hsl(222 38% 25%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(var(--white)) 0%, hsl(var(--neutral-light)) 100%);
+  }
+
+  .dark {
+    --background: 220 15% 8%;
+    --foreground: 220 15% 95%;
+    --card: 220 15% 10%;
+    --card-foreground: 220 15% 95%;
+    --popover: 220 15% 10%;
+    --popover-foreground: 220 15% 95%;
+    --muted: 220 15% 15%;
+    --muted-foreground: 220 15% 65%;
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+  }
+}
+
+@layer base {
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/* Anchor sections for proper header clearance */
+#news,
+#about,
+#how-it-works,
+#popular-questions,
+#contact {
+  scroll-margin-top: 80px;
+}
+  
+  * {
+    @apply border-border;
+  }
+  
+   body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    direction: rtl;
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+  
+  /* RTL/LTR Direction Support */
+  html[dir="rtl"] body {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  html[dir="ltr"] body {
+    direction: ltr;
+    text-align: left;
+  }
+  
+  /* RTL-specific adjustments */
+  .rtl-flex-reverse {
+    @apply flex-row-reverse;
+  }
+  
+  .rtl-text-align {
+    text-align: right;
+  }
+  
+  .rtl-space-reverse > * + * {
+    --tw-space-x-reverse: 1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .institutional-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Responsive container system */
+  .responsive-container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+    max-width: 1280px;
+  }
+
+  .container-tight {
+    @apply responsive-container;
+    max-width: 1024px;
+  }
+
+  .container-wide {
+    @apply responsive-container;
+    max-width: 1440px;
+  }
+
+  /* Anchor offset for fixed header */
+  .anchor-offset {
+    scroll-margin-top: 80px;
+  }
+
+  /* Viewport height utilities accounting for header */
+  .min-h-hero {
+    min-height: calc(100vh - 80px);
+  }
+
+  /* Safe area support */
+  .safe-area-inset {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Touch targets */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Text wrapping */
+  .text-wrap {
+    overflow-wrap: anywhere;
+    hyphens: auto;
+  }
+
+  /* Mobile-first responsive text */
+  .responsive-heading {
+    @apply text-fluid-2xl sm:text-fluid-3xl  font-bold leading-tight;
+  }
+
+  .responsive-subheading {
+    @apply text-fluid-lg sm:text-fluid-xl lg:text-fluid-2xl font-semibold;
+  }
+
+  .responsive-body {
+    @apply text-fluid-base sm:text-fluid-lg leading-relaxed;
+  }
+
+  /* Touch-friendly interactive elements */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
+  }
+
+  .mobile-nav-item {
+    @apply block w-full px-fluid-md py-fluid-sm  border-b border-border last:border-b-0;
+  }
+  
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-hero {
+    background: hsl(var(--primary));
+  }
+  
+  /* Hover effects for interactive elements */
+  .hover-scale {
+    @apply transition-transform duration-200 hover:scale-105;
+  }
+  
+  /* Dashboard specific styles */
+  .dashboard-card {
+    @apply bg-card shadow-sm rounded-lg border border-border;
+  }
+  
+  .status-active {
+    @apply bg-success text-success-foreground;
+  }
+  
+  .status-pending {
+    @apply bg-warning text-warning-foreground;
+  }
+  
+  /* LTR content in RTL layouts */
+  .ltr-content {
+    direction: ltr;
+    text-align: left;
+  }
+
+  /* RTL-specific utilities */
+  html[dir="rtl"] .rtl-flex-row-reverse {
+    @apply flex-row-reverse;
+  }
+  
+  html[dir="rtl"] .rtl-text-right {
+    @apply text-right;
+  }
+  
+  html[dir="rtl"] .rtl-ml-auto {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  html[dir="rtl"] .rtl-mr-auto {
+    margin-right: auto;
+    margin-left: 0;
+  }
+  
+  html[dir="rtl"] .rtl-space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+  
+  /* RTL-aware navigation */
+  html[dir="rtl"] .fixed.left-0 {
+    left: auto;
+    right: 0;
+  }
+  
+  html[dir="rtl"] .ml-64 {
+    margin-left: 0;
+    margin-right: 16rem;
+  }
+  
+  /* RTL positioning for headers */
+  html[dir="rtl"] .justify-between {
+    direction: rtl;
+  }
+  
+  /* Dashboard RTL Support */
+  html[dir="rtl"] .dashboard-sidebar {
+    right: 0;
+    left: auto;
+  }
+  
+  html[dir="rtl"] .dashboard-content {
+    margin-right: 18rem; /* 72 * 0.25rem */
+    margin-left: 0;
+  }
+  
+  html[dir="rtl"] .dashboard-content.collapsed {
+    margin-right: 5.5rem; /* 20 * 0.25rem */
+    margin-left: 0;
+  }
+  
+  html[dir="ltr"] .dashboard-sidebar {
+    left: 0;
+    right: auto;
+  }
+  
+  html[dir="ltr"] .dashboard-content {
+    margin-left: 18rem; /* 72 * 0.25rem */
+    margin-right: 0;
+  }
+  
+  html[dir="ltr"] .dashboard-content.collapsed {
+    margin-left: 5.5rem; /* 20 * 0.25rem */
+    margin-right: 0;
+  }
+  
+  /* Dashboard card styles */
+  .dashboard-card {
+    @apply bg-white rounded-2xl shadow-sm border border-gray-100 p-6;
+  }
+  
+  .dashboard-kpi-card {
+    @apply bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow;
+  }
+  
+  .dashboard-stat-card {
+    @apply bg-white rounded-2xl p-6 shadow-sm border border-gray-100;
+  }
+  
+  /* RTL-aware spacing */
+  .rtl-space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+  
+  .rtl-space-y-reverse > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 1;
+  }
+}
+
+
+/* Delete Scrollbar :----- */
+.overflow-y-auto {
+  overflow-y: auto;
+  scrollbar-width: none; 
+}
+.overflow-y-auto::-webkit-scrollbar {
+  display: none; 
+}
+
+
+
+
+@media print {
+
+  body.print-mode .print-area,
+  body.print-mode .print-area * {
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  body.print-mode header,
+  body.print-mode footer,
+  body.print-mode nav,
+  body.print-mode aside,
+  body.print-mode .sidebar,
+  body.print-mode .app-footer,
+  body.print-mode .app-header ,
+  body.print-mode .statusBadge,
+  body.print-mode button,
+  body.print-mode .box_action{
+    display: none !important;
+  }
+
+  body.print-mode [role="dialog"],
+  body.print-mode [data-sonner-toast],
+  body.print-mode .sonner-toast,
+  body.print-mode .sonner-container {
+    display: none !important;
+  }
+
+  body.print-mode button,
+  body.print-mode .print\\:hidden {
+    display: none !important;
+  }
+
+  body.print-mode .bg-gray-50,
+  body.print-mode .bg-yellow-50 {
+    background: transparent !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== Scrollbar - Chrome, Edge, Safari ===== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2E4166; 
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1f2f4c;
+}
+
+/* ===== Scrollbar - Firefox ===== */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2E4166 #f1f1f1;
+}

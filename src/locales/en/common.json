@@ -1,0 +1,510 @@
+{
+  "hello": "Hello",
+  "welcome": "Welcome",
+  "welcome_user": "Welcome, {{name}}!",
+  "goodbye": "Goodbye",
+  "language": "Language",
+  "select_language": "Select Language",
+  "dashboard": "Dashboard",
+  "properties": "Properties",
+  "bookings": "Bookings",
+  "users": "Users",
+  "settings": "Settings",
+  "logout": "Logout",
+  "login": "Login",
+  "signup": "Sign Up",
+  "email": "Email",
+  "password": "Password",
+  "submit": "Submit",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "view": "View",
+  "search": "Search",
+  "filter": "All",
+  "sort": "Sort",
+  "loading": "Loading...",
+  "error": "Error",
+  "success": "Success",
+  "warning": "Warning",
+  "info": "Information",
+  "confirm": "Confirm",
+  "yes": "Yes",
+  "no": "No",
+  "close": "Close",
+  "open": "Open",
+  "next": "Next",
+  "previous": "Previous",
+  "page": "Page",
+  "of": "of",
+  "total": "Total",
+  "items": "{{count}} item",
+  "items_plural": "{{count}} items",
+  "no_items": "No items found",
+  "create_new": "Create New",
+  "last_updated": "Last updated",
+  "created_at": "Created at",
+  "updated_at": "Updated at",
+  "name": "Name",
+  "description": "Description",
+  "status": "Status",
+  "active": "Active",
+  "inactive": "Inactive",
+  "pending": "Pending",
+  "approved": "Approved",
+  "rejected": "Rejected",
+  "address": "Address",
+  "phone": "Phone",
+  "website": "Website",
+  "organization": "Organization",
+  "add_property": "Add Property",
+  "property_details": "Property Details",
+  "booking_details": "Booking Details",
+  "user_details": "User Details",
+  "nav": {
+    "home": "Home",
+    "about": "About Platform",
+    "howItWorks": "How It Works",
+    "news": "News",
+    "faq": "FAQ",
+    "contact": "Contact Us",
+    "login": "Sign In",
+    "loginShort": "Sign In",
+    "joinNow": "Join Now",
+    "join": "Join",
+    "search": "Search",
+    "openMenu": "Open menu",
+    "logout":"Logout",
+    "out":"Logout",
+    "go_dashboard":"Go To Dashboard",
+    "dashboard":"Dashboard"
+  },
+  "hero": {
+    "subtitle": "Global Resident Housing",
+    "title": "An integrated digital platform for providing and managing institutional housing",
+    "description": "We connect property owners and companies recruiting labor and individuals through an advanced management system",
+    "propertyOwnerBtn": "Register as Property Owner/Broker",
+    "companyBtn": "Register as Company"
+  },
+  "about": {
+    "subtitle": "About Our Platform",
+    "title": "Global Resident Housing Platform is a bridge between owners, companies and individuals to achieve an integrated residential environment",
+    "description": "It is an integrated digital platform that connects property owners, companies and individuals to manage institutional housing efficiently, while ensuring transparency and compliance with regulations.",
+    "vision": "Vision",
+    "mission": "Mission",
+    "visionText": "We strive to simplify and organize the process of finding and renting housing for individuals and labor through",
+    "features": [
+      "Providing a reliable platform linking property owners with employment companies and individuals.",
+      "Ensuring quality compliance with government procedures in a smart parking system.",
+      "Excellence transparency and quality in the institutional housing sector."
+    ],
+    "missionText": "...Our mission is",
+    "missionFeatures": [
+      "Facilitating access to housing",
+      "Ensuring transparency and reliability",
+      "Enhancing the user experience"
+    ]
+  },
+  "explore": {
+    "title": "Explore by",
+    "description": "Browse available housing options by property type suitable for your needs. We provide you with a variety of options that comply with government and democratic standards.",
+    "propertyType" : "propertyType",
+    "types": {
+      "rest": "Rest House",
+      "villa": "Villa", 
+      "apartment": "Apartment",
+      "house": "House"
+    },
+    "propertyCount": "property",
+    "propertyCountPlural": "properties"
+  },
+  "howItWorks": {
+    "title": "How the Platform Works",
+    "subtitle": "Simple steps to start using the system",
+    "steps": [
+      {
+        "title": "Registration and Setup",
+        "description": "Create a new account and set up institution and property data"
+      },
+      {
+        "title": "Add Units",
+        "description": "Register residential units with all details and specifications"
+      },
+      {
+        "title": "Manage and Follow Up",
+        "description": "Follow up on bookings and payments and provide reports"
+      }
+    ]
+  },
+
+  "targetAudience": {
+    "title": "Target Audiences",
+    "subtitle": "We serve various organizations and companies in the housing sector",
+    "tabs": {
+      "owners": "For Property Owners / Brokers",
+      "companies": "For Companies"
+    },
+    "stepsByTab": {
+      "owners": [
+        {
+          "title": "Initial Registration and Document Upload",
+          "lead": "Start by creating your account and entering your basic information with ease.",
+          "desc": "Upload the required documents for quick review and approval to ensure your process is completed without any delays."
+        },
+        {
+          "title": "Review Property Advertising License and Activate Account"
+        },
+        {
+          "title": "Add Property Details and Images"
+        },
+        {
+          "title": "Receive Booking Requests and Consultations"
+        },
+        {
+          "title": "Manage Bookings and Payments"
+        }
+      ],
+      "companies": [
+        {
+          "title": "Create Account and Define Requirements"
+        },
+        {
+          "title": "Browse Offers and Apply Filters"
+        },
+        {
+          "title": "Submit Contract Request"
+        },
+        {
+          "title": "Manage Contracts and Employees"
+        },
+        {
+          "title": "Track Payments and Reports"
+        }
+      ],
+      "brokers": [
+        {
+          "title": "Register Broker and Verify Data"
+        },
+        {
+          "title": "Upload Property Listings"
+        },
+        {
+          "title": "Communicate with Companies and Clients"
+        },
+        {
+          "title": "Document Contracts"
+        },
+        {
+          "title": "Performance Reports and Follow-ups"
+        }
+      ]
+    }
+  },
+
+  "partners": {
+    "title": "More than 500 leading Saudi companies trust us",
+    "subtitle": " We work daily to build trust through communication, transparency, and results."
+  },
+  "testimonials": {
+    "title": "Our Clients' Opinions",
+    "subtitle": " Our clients' opinions.. testimonials that tell our success",
+    "items": [
+      {
+        "name": "Ahmed Mohammed",
+        "position": "Human Resources Manager",
+        "company": "Real Estate Development Company",
+        "content": "The platform greatly facilitated managing employee housing and increased work efficiency"
+      },
+      {
+        "name": "Fatima Al-Ali",
+        "position": "Head of Housing Department",
+        "company": "Ministry of Housing",
+        "content": "An integrated and easy-to-use system with excellent technical support"
+      },
+      {
+        "name": "Khalid Al-Ahmad",
+        "position": "Operations Manager",
+        "company": "Al-Mutahedon Company",
+        "content": "Fast and efficient service with competitive prices and high quality"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Start?",
+    "subtitle": "Join thousands of institutions that rely on our platform for housing management",
+    "startBtn": "Start Now",
+    "contactBtn": "Contact Us"
+  },
+  "footer": {
+    "description": "An integrated digital platform for providing and managing institutional housing for workers and individuals, efficiently connecting property owners, companies, and individuals.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved",
+    "links": {
+      "home":"Home",
+      "about": "About Us",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "support": "Technical Support",
+      "owners":"Properties Owners",
+      "companies" :"companies",
+      "common":"FQAs",
+      "news" :"News"
+    },
+    "serviceItems": {
+      "propertyManagement": "Property Management",
+      "bookingSystem": "Booking System",
+      "reports": "Reports and Analytics",
+      "support": "24/7 Support"
+    }
+  },
+  "news": {
+    "sectionTitle": "Latest News",
+    "sectionSubtitle": "Explore our featured posts about the latest real estate developments",
+    "exploreAll": "Explore All",
+    "readMore": "Read More",
+    "backToNews": "Back to News",
+    "allNews": "All News",
+    "publishedOn": "Published on",
+    "category": {
+      "general": "General",
+      "updates": "Updates", 
+      "partnerships": "Partnerships",
+      "security": "Security",
+      "tips": "Tips & Guides",
+      "events": "Events"
+    }
+  },
+
+  
+  "faq": {
+    "sectionTitle": "Most Popular Questions",
+    "sectionSubtitle": "Find answers to the most commonly asked questions",
+    "searchPlaceholder": "Search questions...",
+    "viewAll": "View All",
+    "back": "Back",
+    "allFaq": "All FAQ",
+    "noResults": "No questions found matching your search",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "categories": {
+      "all": "All Categories",
+      "platform": "General Platform Questions",
+      "company": "Questions for Companies",
+      "owner": "Questions for Property Owners"
+    }
+  },
+
+
+  "faqQuestions": {
+    "platform1": {
+      "question": "How can I register on the platform?",
+      "answer": "You can register by choosing your account type (Property Owner/Intermediary Company) and entering the basic information with uploading the required documents to activate your account within 24 working hours."
+    },
+    "platform2": {
+      "question": "What is the cost of using the platform?",
+      "answer": "The platform is free for basic use with advanced paid services according to the needs of each organization."
+    },
+    "platform3": {
+      "question": "How is the quality of properties ensured?",
+      "answer": "We conduct a thorough inspection of all properties and ensure they meet government standards before listing."
+    },
+    "company1": {
+      "question": "How long does the housing approval process take?",
+      "answer": "The review and approval process usually takes 24 to 48 working hours after submitting the complete request."
+    },
+    "company2": {
+      "question": "Can modifications be requested after signing the lease?",
+      "answer": "Minor modifications can be discussed with the property owner, but major modifications require prior approval."
+    },
+    "company3": {
+      "question": "How are disputes resolved?",
+      "answer": "We provide specialized mediation to resolve disputes between parties, ensuring the rights of all involved."
+    },
+    "owner1": {
+      "question": "What guarantees are available to protect my property?",
+      "answer": "We provide comprehensive property insurance and liability waiver guarantees with the ability to track the property's status in real-time."
+    },
+    "owner2": {
+      "question": "How is rent pricing determined?",
+      "answer": "Prices are determined based on the local market while considering the property's location, specifications, and condition."
+    },
+    "owner3": {
+      "question": "Can multiple properties be managed?",
+      "answer": "Yes, you can add and manage an unlimited number of properties through a single account."
+    }
+  },
+
+
+
+  "language_changed_successfully": "Language changed successfully",
+  "language_change_error": "Error changing language",
+  "customize_your_experience": "Customize your experience in the app",
+
+
+  "customer":{
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "myBookings": "My Bookings",
+      "settings": "Settings"
+    }
+  },
+
+
+
+  "signupPage": {
+    "welcomeBack": "Welcome Back",
+    "welcomeMessage": "Hello again! Please log in to continue.",
+    "login": "Login",
+    "registerNow": "Register Now",
+    "noAccount": "Don't have an account?",
+    "termsMessage": "By continuing, you agree to the Terms of Service and Privacy Policy of Global Residential Housing and consent to receive periodic emails with updates.",
+    "loggingIn": "Logging in...",
+    "ownerOrAgent": "Register as Property Owner / Agent",
+    "fillDataNotice": "Fill in the required information and your request will be reviewed within 24 hours",
+    "ownerOrAgentLabel": "Property Owner / Agent",
+    "companyOrInstitution": "Company / Institution",
+    "createOwnerOrCompanyAccount": "Create Property Owner / Residential Company Account",
+    "createCompanyAccount": "Create Company Account",
+    "basicCompanyInfo": "Basic Company Information",
+    "residentialRecruitmentInfo": "Residential Recruitment Information",
+    "basicData": "Basic Information",
+    "commercialRegNumber": "Commercial Registration Number",
+    "authorizedRepresentativeName": "Authorized Representative Name",
+    "position": "Position / Job Title",
+    "representativeIdNumber": "Authorized Representative ID Number",
+    "officeAddress": "Office Address",
+    "selectCity": "Select City",
+    "companyPhone": "Company Phone Number",
+    "responsibleMobile": "Representative Person Mobile Number",
+    "agreeTerms": "I agree to the platform’s terms and conditions and commit to comply with all laws and regulations in the Kingdom of Saudi Arabia",
+    "companyName": "Company / Institution Name",
+    "approxEmployees": "Approximate Number of Employees",
+    "employees": "Number of Employees",
+    "jobPosition": "Job Position",
+    "responsiblePerson": "Responsible Person",
+    "phone": "Phone Number",
+    "addAnotherResponsible": "Add Another Responsible Person",
+    "preferredRegion": "Preferred Region",
+    "selectPreferredRegion": "Select Preferred Region",
+    "next": "Next",
+    "previous": "Previous",
+    "authorizedRepresentativeFullName": "Full Name",
+    "positionsExamples": "General Manager, Owner, Real Estate Development Manager",
+    "officeAddressDetailed": "Detailed Office Address",
+    "example": "Example",
+    "businessActivityExample": "Example: Domestic Labor Recruitment",
+    "representativeNameExample": "Example: Ahmed Mohammed",
+    "secondPhoneNumber": "Second Phone Number",
+    "secondResponsiblePerson": "Second Responsible Person",
+    "jobTitleExample": "Example: Human Resources Manager",
+    "secondResponsibleExample": "Example: Sarah Ahmed",
+    "addressExample": "Example: King Fahd Street, Al Nakheel District",
+    "cityExample": "Example: Riyadh",
+    "owner": "Owner",
+    "realEstateBroker": "Real Estate Broker",
+    "propertyOwner": "Property Owner",
+    "alreadyHaveAccount": "Already have an account?",
+    "createNewAccount": "Create New Account",
+  "fillRequiredData": "Fill in the required information and your request will be reviewed within 24 hours",
+  "createPropertyOwnerAccount": "Create Property Owner Account",
+  "personalInformation": "Personal Information",
+  "fullName": "Full Name",
+  "nationalId": "National ID Number",
+  "phoneNumber": "Phone Number",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "businessInformation": "Business Information",
+  "realEstateLicenseNumber": "Real Estate License Number",
+  "businessActivity": "Business Activity",
+  "selectBusinessActivity": "Select Business Activity",
+  "region": "Region",
+  "selectRegion": "Select Region",
+  "city": "City",
+  "accountType": "Account Type",
+  "basicInformation": "Basic Information",
+  "uploadDocuments": "Upload Documents",
+   "realEstateDevelopment": "Real Estate Development",
+  "propertyManagement": "Property Management",
+  "realEstateBrokerage": "Real Estate Brokerage",
+  "realEstateValuation": "Real Estate Valuation",
+  "realEstateInvestment": "Real Estate Investment",
+  "other": "Other",
+  "registering": "Registering...",
+  "enterFullName": "Enter Full Name",
+  "enterNationalId": "Enter National ID Number",
+  "enterPhoneNumber": "Enter Phone Number",
+  "enterEmail": "Enter Email",
+  "enterPassword": "Enter Password",
+  "reEnterPassword": "Re-enter Password",
+  "enterRealEstateLicense": "Enter Real Estate License Number",
+  "enterCity": "Enter City",
+  "createAgentAccount" : "Create Agent Account",
+  "companyType": "Company / Organization Type",
+  "companyName": "Company or Organization Name",
+  "commercialRegisterNumber": "Commercial Registration Number",
+  "companyPhone": "Company Phone Number",
+  "personalPhone": "Personal Phone Number",
+  "officeAddress": "Office Address",
+  "city": "City",
+  "region": "Region",
+  "mobileNumber": "Mobile Phone Number",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "selectCompanyType": "Select Company Type",
+  "individual": "Individual",
+  "company": "Company",
+  "organization": "Organization",
+  "enterCompanyName": "Enter Company or Organization Name",
+  "enterCommercialRegister": "Enter Commercial Registration Number",
+  "enterOfficeAddress": "Enter Office Address",
+  "selectCity": "Select City",
+  "upload_required_documents": "Upload Required Documents",
+  "attach_documents_description": "Attach the required documents to verify identity and ownership",
+  "commercial_register": "Commercial Register",
+  "residence_id_files": "Residence ID Files",
+  "upload": "Upload",
+  "pdf_jpg_png_10mb": "PDF, JPG, PNG up to 10 MB",
+  "jpg_png_5mb": "JPG, PNG up to 5 MB",
+  "business_license_id": "Business License ID Document",
+  "complete_registration": "Complete Registration",
+  "previous": "Previous",
+  "business_license_id_document": "Business License ID Document",
+  "id_personal_photo": "Personal Photo on ID",
+  "file_uploaded_successfully": "✓ File Uploaded",
+  "request_sent_successfully": "Your request has been sent successfully",
+    "registration_thank_you_message":
+      "Thank you for registering with us. Your request will be reviewed by the administration, and once approved, you will receive a message shortly.",
+    "login_with_credentials": "Log in using your account and password",
+    "back_to_homepage": "Back to Home Page",
+    "gender": "Gender",
+    "select_gender": "Select gender",
+    "male": "Male",
+    "female": "Female",
+
+    "invalid_phone_number":"The phone number must start with 5 and be 9 digits long.",
+    "invalid_val_license_number":"The license number must be at least 10 characters long.",
+    "you_must_agree":"You must agree to the terms and conditions in the previous step.",
+    "invalid_registration_number":"The commercial registration number must consist of 10 digits.",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":""
+  }
+
+
+
+
+
+}

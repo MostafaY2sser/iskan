@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "فيلا الرياض الفاخرة",
+    "city": "الرياض",
+    "capacity": 8,
+    "status": "نشط",
+    "lastUpdated": "2024-01-15",
+    "price": 2500,
+    "image": "/lovable-uploads/16edcdc1-6683-4bdd-9c19-8943c60fb534.png"
+  },
+  {
+    "id": "2",
+    "name": "شقة جدة البحرية",
+    "city": "جدة",
+    "capacity": 4,
+    "status": "نشط",
+    "lastUpdated": "2024-01-12",
+    "price": 1800,
+    "image": "/lovable-uploads/26f431a4-7d66-4365-aabe-d33949437654.png"
+  },
+  {
+    "id": "3",
+    "name": "منزل الدمام التجاري",
+    "city": "الدمام",
+    "capacity": 6,
+    "status": "قيد المراجعة",
+    "lastUpdated": "2024-01-10",
+    "price": 3200,
+    "image": "/lovable-uploads/7306aed7-94ef-4bd9-9536-dce7f04d8387.png"
+  },
+  {
+    "id": "4",
+    "name": "استوديو مكة المكرمة",
+    "city": "مكة المكرمة",
+    "capacity": 2,
+    "status": "غير نشط",
+    "lastUpdated": "2024-01-08",
+    "price": 1200,
+    "image": "/lovable-uploads/ba6ca422-3c64-4420-8576-29c33f9ac891.png"
+  }
+]
